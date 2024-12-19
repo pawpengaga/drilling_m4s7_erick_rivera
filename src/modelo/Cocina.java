@@ -17,6 +17,8 @@ public class Cocina extends Producto implements ICocinaInterface{
       throw new ProductoInverosimilException("El producto que quiere crear no tiene sentido en la vida real.");
     }
 
+    this.incluyeGas = false;
+
   }
 
   @Override
